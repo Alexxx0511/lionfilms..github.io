@@ -1,0 +1,556 @@
+body{
+background: linear-gradient(to right, #000066 0%, #cc9900 100%);
+font-family: 'Fjalla One', sans-serif;
+margin: 0;
+height: 100%
+}
+.vertical{
+display: inline-flex;
+margin: 0 auto 0;
+position: relative;
+width: 100%;
+height: 75px;
+background-color:black;
+border-radius: 1px solid black;
+box-shadow: 2px 2px 4px green;
+}
+p{
+  font-family: 'Fjalla One', sans-serif;
+}
+h3{
+  font-family: 'Fjalla One', sans-serif;
+}
+a{
+  font-family: 'Fjalla One', sans-serif;
+}
+.afirst{
+  margin-top: 25px;
+  margin-left:150px;
+  font-size: 24pt;
+}
+.bfirst{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.cfirst{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.dfirst{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.efirst{
+margin-top: 25px;
+  margin-left:0px;
+}
+.search{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+margin-left: 100px;
+}
+.vertical a{
+  position: relative;
+  left: 10px;
+  word-spacing : 18px;
+  font-size:20pt;
+  text-decoration: none;
+  color: #FFD033;
+  padding-left: 20px;
+}
+.vertical a:hover{
+  color: white;
+}
+
+.icon{
+  margin-top:0px;
+height: 75px;
+width: 100px;
+margin-left: -30px;
+}
+.upup{
+  margin-right: 600px;
+  margin-left: 30px;
+}
+.upup h2{
+  font-size: 30pt;
+
+}
+.upup p{
+  font-size: 16pt;
+}
+.criminality{
+  margin-top: 30px;
+    margin-left: 30px;
+}
+.crimimg{
+  display: flex;
+}
+.crimimg img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr{
+  margin-left: 20px;
+}
+.descr p{
+  font-size: 12pt;
+}
+.descr h3{
+  margin-top: 30px;
+}
+.rating {
+  margin-left: 220px;
+  margin-top: 0px;
+}
+.watch{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch p:hover{
+    background:#d7ba1a;
+}
+.criminality2{
+  margin-top: 30px;
+}
+.crimimg2{
+  display: flex;
+}
+.crimimg2 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg2 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg2 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr2{
+  margin-left: 20px;
+}
+.descr2 p{
+  font-size: 12pt;
+}
+.descr2 h3{
+  margin-top: 30px;
+}
+.rating2 {
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.watch2{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch2 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch2 p:hover{
+    background:#d7ba1a;
+}
+.criminality3{
+  margin-top: 30px;
+}
+.crimimg3{
+  display: flex;
+}
+.crimimg3 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg3 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg3 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr3{
+  margin-left: 20px;
+}
+.descr3 p{
+  font-size: 12pt;
+}
+.descr3 h3{
+  margin-top: 30px;
+}
+.rating3 {
+  margin-left: 260px;
+  margin-top: 0px;
+}
+.watch3{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch3 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch3 p:hover{
+    background:#d7ba1a;
+}
+.criminality4{
+  margin-top: 30px;
+}
+.crimimg4{
+  display: flex;
+}
+.crimimg4 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg4 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg4 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr4{
+  margin-left: 20px;
+}
+.descr4 p{
+  font-size: 12pt;
+}
+.descr4 h3{
+  margin-top: 30px;
+}
+.rating4 {
+  margin-left: 290px;
+  margin-top: 0px;
+}
+.watch4{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch4 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch4 p:hover{
+    background:#d7ba1a;
+}
+
+.criminality5{
+  margin-top: 30px;
+}
+.crimimg5{
+  display: flex;
+}
+.crimimg5 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg5 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg5 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr5{
+  margin-left: 20px;
+}
+.descr5 p{
+  font-size: 12pt;
+}
+.descr5 h3{
+  margin-top: 30px;
+}
+.rating5 {
+  margin-left: 230px;
+  margin-top: 0px;
+}
+.watch5{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch5 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch5 p:hover{
+    background:#d7ba1a;
+}
+.criminality6{
+  margin-top: 30px;
+}
+.crimimg6{
+  display: flex;
+}
+.crimimg6 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg6 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg6 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr6{
+  margin-left: 20px;
+}
+.descr6 p{
+  font-size: 12pt;
+}
+.descr6 h3{
+  margin-top: 30px;
+}
+.rating6 {
+  margin-left: 220px;
+  margin-top: 0px;
+}
+.watch6{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch6 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch6 p:hover{
+    background:#d7ba1a;
+}
+.criminality7{
+  margin-top: 30px;
+}
+.crimimg7{
+  display: flex;
+}
+.crimimg7 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg7 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg7 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr7{
+  margin-left: 20px;
+}
+.descr7 p{
+  font-size: 12pt;
+}
+.descr7 h3{
+  margin-top: 30px;
+}
+.rating7 {
+  margin-left: 230px;
+  margin-top: 0px;
+}
+.watch7{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch7 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch7 p:hover{
+    background:#d7ba1a;
+}
+
+.criminality8{
+  margin-top: 30px;
+}
+.crimimg8{
+  display: flex;
+}
+.crimimg8 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg8 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg8 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr8{
+  margin-left: 20px;
+}
+.descr8 p{
+  font-size: 12pt;
+}
+.descr8 h3{
+  margin-top: 30px;
+}
+.rating8{
+  margin-left: 140px;
+  margin-top: 0px;
+}
+.watch8{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch8 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch8 p:hover{
+    background:#d7ba1a;
+}
+.criminality9{
+  margin-top: 30px;
+}
+.crimimg9{
+  display: flex;
+}
+.crimimg9 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+.crimimg9 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg9 p{
+  font-size: 25pt;
+  padding-top: 20px;
+}
+.descr9{
+  margin-left: 20px;
+}
+.descr9 p{
+  font-size: 12pt;
+}
+.descr9 h3{
+  margin-top: 30px;
+}
+.rating9 {
+  margin-left: 270px;
+  margin-top: 0px;
+}
+.watch9{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch9 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch9 p:hover{
+    background:#d7ba1a;
+}
+.criminality10{
+  margin-top: 30px;
+}
+.crimimg10{
+  display: flex;
+}
+.crimimg10 img{
+  height: 200px;
+  width: 200px;
+  padding-left: 20px;
+}
+.crimimg10 img:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.crimimg10 p{
+  font-size: 25pt;
+  padding-top: 20px;
+margin-left: -10px;
+}
+.descr10{
+  margin-left: 20px;
+}
+.descr10 p{
+  font-size: 12pt;
+}
+.descr10 h3{
+  margin-top: 30px;
+}
+.rating10 {
+  margin-left: 230px;
+  margin-top: 0px;
+}
+.watch10{
+  margin-left: 150px;
+  margin-top:30px;
+
+}
+.watch10 p{
+  font-size: 16pt;
+    border: 1px solid #FFD033;
+    background: #FFD033;
+    padding: 10px;
+}
+.watch10 p:hover{
+    background:#d7ba1a;
+}

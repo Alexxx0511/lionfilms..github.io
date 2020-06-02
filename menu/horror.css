@@ -1,0 +1,794 @@
+body{
+background: linear-gradient(to right, #000066 0%, #cc9900 100%);
+font-family: 'Fjalla One', sans-serif;
+margin: 0;
+height: 100%
+}
+.vertical{
+display: inline-flex;
+margin: 0 auto 0;
+position: relative;
+width: 100%;
+height: 75px;
+background-color:black;
+border-radius: 1px solid black;
+box-shadow: 2px 2px 4px green;
+}
+p{
+  font-family: 'Fjalla One', sans-serif;
+}
+h3{
+  font-family: 'Fjalla One', sans-serif;
+}
+a{
+  font-family: 'Fjalla One', sans-serif;
+}
+.afirst{
+  margin-top: 25px;
+  margin-left:150px;
+  font-size: 24pt;
+}
+.bfirst{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.cfirst{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.dfirst{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.efirst{
+margin-top: 25px;
+  margin-left:0px;
+}
+.search{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+margin-left: 100px;
+}
+.vertical a{
+  position: relative;
+  left: 10px;
+  word-spacing : 18px;
+  font-size:20pt;
+  text-decoration: none;
+  color: #FFD033;
+  padding-left: 20px;
+}
+.vertical a:hover{
+  color: white;
+}
+
+.icon{
+  margin-top:50px;
+height: 75px;
+margin-left: -30px;
+width: 100px;
+}
+
+.horror1{
+  display:flex;
+  background-color:;
+  margin-top: -10px;
+border: 0px solid green;
+height: 300px;
+margin-left: 230px;
+width: 86%;
+
+}
+
+.horror1 h3{
+  color: #FFD033;
+  white-space:nowrap;
+  margin-left: 450px;
+    font-style: italic;
+    font-size: 28pt;
+margin-top: 10px;
+color:
+
+}
+img{
+position: relative;
+bottom: 50px;
+}
+
+.oculus{
+right: 900px;
+top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top: 50px;
+width: 200px;
+}
+
+
+.susp{
+  right: 900px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.jack{
+  right: 900px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.proch{
+  right: 900px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.quiteplace{
+  right: 900px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.rein{
+  right:850px;
+  top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top:50px;
+width: 200px;
+}
+.oculusdiv p{
+  padding-top: 15px;
+margin-left:-850px;
+}
+.suspdiv p{
+  padding-top: 15px;
+  margin-left:-800px;
+}
+.jackdiv p{
+  padding-top: 15px;
+margin-left:-850px;
+}
+.prochdiv p{
+  padding-top: 15px;
+margin-left:-780px;
+}
+.quiteplacediv p{
+  padding-top: 15px;
+margin-left:-800px;
+}
+.reindiv p{
+  padding-top: 15px;
+margin-left:-800px;
+}
+.susp:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.jack:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.proch:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.quiteplace:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.rein:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.oculus:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.oculusdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.suspdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.jackdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.prochdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.quiteplacediv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.reindiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.horror2{
+  display:flex;
+  background-color:;
+  margin-top: -10px;
+border: 0px solid green;
+height: 300px;
+margin-left: 200px;
+width: 86%;
+
+}
+
+.horror2 h3{
+  color: #FFD033;
+  white-space:nowrap;
+  margin-right: 500px;
+    font-style: italic;
+    font-size: 24pt;
+margin-top: 10px;
+color:
+
+}
+img{
+position: relative;
+bottom: 50px;
+}
+
+.astral{
+right: 2300px;
+top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top: 50px;
+width: 200px;
+}
+
+
+.cabin{
+  right: 2300px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.sin{
+  right: 2300px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.pusan{
+  right: 2300px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.split{
+  right: 2300px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.visit{
+  right:2250px;
+  top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top:50px;
+width: 200px;
+}
+.astraldiv p{
+  padding-top: 15px;
+margin-left:-2240px;
+}
+.cabindiv p{
+  padding-top: 15px;
+  margin-left:-2200px;
+}
+.sindiv p{
+  padding-top: 15px;
+margin-left:-2180px;
+}
+.pusandiv p{
+  padding-top: 15px;
+margin-left:-2200px;
+}
+.splitdiv p{
+  padding-top: 15px;
+margin-left:-2190px;
+}
+.visitdiv p{
+  padding-top: 15px;
+margin-left:-2190px;
+}
+.cabin:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.sin:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.pusan:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.split:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.visit:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.astral:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.astraldiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.cabindiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.sindiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.pusandiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.splitdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.visitdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.horror3{
+  display:flex;
+  background-color:;
+  margin-top: -10px;
+border: 0px solid green;
+height: 300px;
+margin-left: 200px;
+width: 86%;
+
+}
+
+.horror3 h3{
+  color: #FFD033;
+  white-space:nowrap;
+  margin-right: 500px;
+    font-style: italic;
+    font-size: 24pt;
+margin-top: 10px;
+color:
+
+}
+img{
+position: relative;
+bottom: 50px;
+}
+
+.babaduk{
+right: 3700px;
+top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top: 50px;
+width: 200px;
+}
+
+
+.clover{
+  right: 3700px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.delete{
+  right: 3700px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.isee{
+  right: 3700px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.paranormal{
+  right: 3700px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.zaklat{
+  right:3650px;
+  top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top:50px;
+width: 200px;
+}
+.babadukdiv p{
+  padding-top: 15px;
+margin-left:-3640px;
+}
+.cloverdiv p{
+  padding-top: 15px;
+  margin-left:-3600px;
+}
+.deletediv p{
+  padding-top: 15px;
+margin-left:-3620px;
+}
+.iseediv p{
+  padding-top: 15px;
+margin-left:-3620px;
+}
+.paranormaldiv p{
+  padding-top: 15px;
+margin-left:-3650px;
+}
+.zaklatdiv p{
+  padding-top: 15px;
+margin-left:-3600px;
+}
+.clover:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.delete:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.isee:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.paranormal:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.zaklat:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.babaduk:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.babadukdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.cloverdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.deletediv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.iseediv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.paranormaldiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.zaklatdiv3 p:hover{
+  color: orange;
+  transition: .5s;
+}
+.horror4{
+  display:flex;
+  background-color:;
+  margin-top: -10px;
+border: 0px solid green;
+height: 300px;
+margin-left: 200px;
+width: 86%;
+
+}
+
+.horror4 h3{
+  color: #FFD033;
+  white-space:nowrap;
+  margin-right: 500px;
+    font-style: italic;
+    font-size: 24pt;
+margin-top: 10px;
+color:
+
+}
+img{
+position: relative;
+bottom: 50px;
+}
+
+.ono{
+right: 5100px;
+top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top: 50px;
+width: 200px;
+}
+
+
+.raw{
+  right: 5100px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.red{
+  right: 5100px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.son{
+  right: 5100px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.svet{
+  right: 5100px;
+  top: 30px;
+height: 300px;
+padding-left: 50px;
+padding-top: 50px;
+width: 200px;
+}
+.woman{
+  right:5050px;
+  top: 30px;
+height: 300px;
+padding-left: 0px;
+padding-top:50px;
+width: 200px;
+}
+.onodiv p{
+  padding-top: 15px;
+margin-left:-5020px;
+}
+.rawdiv p{
+  padding-top: 15px;
+  margin-left:-4980px;
+}
+.reddiv p{
+  padding-top: 15px;
+margin-left:-5050px;
+}
+.sondiv p{
+  padding-top: 15px;
+margin-left:-5000px;
+}
+.svetdiv p{
+  padding-top: 15px;
+margin-left:-5000px;
+}
+.womandiv p{
+  padding-top: 15px;
+margin-left:-5030px;
+}
+.raw:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.red:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.son:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.svet:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.woman:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.ono:hover{
+  filter:grayscale(.5);
+  transition: .5s;
+  transform: scale(1.1);
+}
+.onodiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.rawdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.reddiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.sondiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.svetdiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.womandiv p:hover{
+  color: orange;
+  transition: .5s;
+}
+.downtown{
+  position: relative;
+  width: 1430px;
+  height: 300px;
+  background: black;
+  margin-top: 200px;
+  margin-right: 5000px;
+}
+.social{
+  display: flex;
+  margin-left: 550px;
+  padding-top: 50px;
+  background:black;
+  width: 220px;
+  height: 50px;
+}
+.vkdiv{
+padding-left: 5px;
+  height: 100%;
+}
+.instdiv{
+padding-left: 5px;
+}
+.twitdiv{
+  padding-left: 5px;
+}
+.facediv{
+  padding-left:5px;
+}
+.vkdiv:hover{
+  opacity:1;
+  transition: 2s;
+ background: linear-gradient(to bottom, #000066 12%, #ffffff 100%);
+}
+.instdiv:hover{
+      background: linear-gradient(to bottom, #ff0000 12%, #ffff00 100%);
+  opacity:1;
+  transition: 2s;
+}
+.twitdiv:hover{
+    background: linear-gradient(to bottom, #0099ff 12%, #ffffff 100%);
+  opacity:1;
+  transition: 2s;
+}
+.facediv:hover{
+ background: linear-gradient(to bottom, #000066 35%, #ffffff 100%);
+  opacity:1;
+  transition: 2s;
+}
+
+.vk{
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+.inst{
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+.twit{
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+.face{
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+.downtowntext{
+  position: relative;
+  display:inline-flex;
+  background: black;
+  width: 1430px;
+  margin-top: 30px;
+  margin-right: 6000px;
+}
+.downtowntext p{
+  padding-left: 50px;
+  color: grey;
+}
+.downtowntext p:hover{
+  color: white;
+}
+hr{
+  margin-top: 25px;
+  height: 0;
+}
+.downx2{
+  display: flex;
+}
+#year{
+  color: grey;
+  padding-left: 20px;
+}
+#lion{
+  color: grey;
+  margin-left:1200px;
+}
+#year:hover{
+  color: white;
+}
+#lion:hover{
+  color: white;
+}

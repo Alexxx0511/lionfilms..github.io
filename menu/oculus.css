@@ -1,0 +1,371 @@
+body{
+background: linear-gradient(to right, #000066 0%, #cc9900 100%);
+font-family: 'Fjalla One', sans-serif;
+margin: 0;
+height: 100%
+}
+.vertical{
+display: inline-flex;
+margin: 0 auto 0;
+position: relative;
+width: 100%;
+height: 75px;
+background-color:black;
+border-radius: 1px solid black;
+box-shadow: 2px 2px 4px green;
+}
+p{
+  font-family: 'Fjalla One', sans-serif;
+}
+h3{
+  font-family: 'Fjalla One', sans-serif;
+}
+a{
+  font-family: 'Fjalla One', sans-serif;
+}
+.afirst{
+  margin-top: 25px;
+  margin-left:150px;
+  font-size: 24pt;
+}
+.bfirst{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.cfirst{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.dfirst{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.efirst{
+margin-top: 25px;
+  margin-left:0px;
+}
+.search{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+margin-left: 100px;
+}
+.vertical a{
+  position: relative;
+  left: 10px;
+  word-spacing : 18px;
+  font-size:20pt;
+  text-decoration: none;
+  color: #FFD033;
+  padding-left: 20px;
+}
+.vertical a:hover{
+  color: white;
+}
+
+.icon{
+  margin-top:0px;
+height: 75px;
+margin-left: -30px;
+width: 100px;
+}
+.begin{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 75px;
+}
+.begin1{
+  margin-left: 275px;
+}
+.begin a{
+  margin-top: 30px;
+  padding-left: 30px;
+  color: #FFD033;
+  text-decoration: none;
+}
+.begin a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.mainbegin{
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.mainnn{
+  position: relative;
+  display: flex;
+  margin-left:275px;
+}
+.mainbegin h3{
+  margin-left: 300px;
+  font-size: 28pt;
+  color: #FFD033;
+}
+.mainnn a{
+  padding-left: 20px;
+  color: orange;
+  text-decoration: none;
+}
+.mainnn a:hover{
+  color: white;
+}
+.oculus2{
+  width: 800px;
+  height:600px;
+margin-left: 400px;
+}
+.buttonoculus{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #fd1c2b;
+  border: none;
+  border-radius: 15px;
+margin-left:730px;
+margin-top: 10px;
+}
+.buttonoculus:hover {background-color: #fa5660}
+
+.buttonoculus:active {
+  background-color: #fa5660;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.mainfoot{
+  display: flex;
+  width: 1430Px;
+  height: 300px;
+  margin-left: 100px;
+}
+.text p{
+  margin-left: -50px;
+  font-size: 16pt;
+}
+.mainrate{
+  display: block;
+}
+.rate p{
+  padding-left: 10px;
+  font-size: 34pt;
+}
+.rating{
+  border: 3px solid grey;
+}
+.rating:hover{
+  border: 3px solid white;
+}
+.progress{
+  display: block;
+  margin-left: 50px;
+}
+.progress1 hr{
+  width: 150px;
+  position: relative;
+  border: none;
+ height: 12px;
+ background: linear-gradient(to right, blue 0%,blue 50%,#000000 50%,white 50%,white 100%);
+
+}
+.progress2 hr{
+  width: 150px;
+  position: relative;
+  border: none;
+ height: 12px;
+ background: linear-gradient(to right, blue 0%,blue 80%,#000000 50%,white 50%,white 100%);
+}
+.progress3 hr{
+  width: 150px;
+  position: relative;
+  border: none;
+ height: 12px;
+ background: linear-gradient(to right, blue 0%,blue 50%,#000000 50%,white 50%,white 100%);
+}
+.progress4 hr{
+  width: 150px;
+  position: relative;
+  border: none;
+ height: 12px;
+ background: linear-gradient(to right, blue 0%,blue 50%,#000000 50%,white 50%,white 100%);
+}
+.lang{
+  display: flex;
+}
+.language{
+  margin-left: 50px;
+}
+.language p{
+  font-size: 15pt;
+}
+.quality{
+  margin-left: 100px;
+}
+.quality p{
+  font-size: 15pt;
+}
+.actors{
+  display: block;
+  margin-top: 100px;
+}
+.actors h2{
+  margin-left: 50px;
+}
+.actorsimages{
+  display: flex;
+}
+.actor1{
+  display: block;
+  margin-left: 50px;
+}
+.actor1 img{
+  height: 200px;
+  width:200px;
+  border-radius: 100px; /* Радиус скругления */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.actor1 p{
+  padding-left: 10px;
+}
+.name1{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.name1:hover{
+  color: red;
+}
+.role1{
+  margin-top: -15px;
+  color: grey;
+  font-size: 12pt;
+}
+.actor2{
+  display: block;
+  margin-left: 20px;
+}
+.actor2 img{
+  height: 200px;
+  width:200px;
+  border-radius: 100px; /* Радиус скругления */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.actor2 p{
+  padding-left: 10px;
+}
+.name2{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.name2:hover{
+  color: red;
+}
+.role2{
+  margin-top: -15px;
+  color: grey;
+  font-size: 12pt;
+}
+.actor3{
+  display: block;
+    margin-left: 20px;
+}
+.actor3 img{
+  height: 200px;
+  width:200px;
+  border-radius: 100px; /* Радиус скругления */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.actor3 p{
+  padding-left: 10px;
+}
+.name3{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.name3:hover{
+  color: red;
+}
+.role3{
+  margin-top: -15px;
+  color: grey;
+  font-size: 12pt;
+}
+.actor4{
+  display: block;
+    margin-left: 20px;
+}
+.actor4 img{
+  height: 200px;
+  width:200px;
+  border-radius: 100px; /* Радиус скругления */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.actor4 p{
+  padding-left: 10px;
+}
+.name4{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.name4:hover{
+  color: red;
+}
+.role4{
+  margin-top: -15px;
+  color: grey;
+  font-size: 12pt;
+}
+.actor5{
+  display: block;
+    margin-left: 20px;
+}
+.actor5 img{
+  height: 200px;
+  width:200px;
+  border-radius: 100px; /* Радиус скругления */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.actor5 p{
+  padding-left: 10px;
+}
+.name5{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.name5:hover{
+  color: red;
+}
+.role5{
+  margin-top: -15px;
+  color: grey;
+  font-size: 12pt;
+}
+.actor6{
+  display: block;
+    margin-left: 20px;
+}
+.actor6 img{
+  height: 200px;
+  width:200px;
+  border-radius: 100px; /* Радиус скругления */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+.actor6 p{
+  padding-left: 10px;
+}
+.name6{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.name6:hover{
+  color: red;
+}
+.role6{
+  margin-top: -15px;
+  color: grey;
+  font-size: 12pt;
+}
